@@ -4,84 +4,79 @@
         <meta charset="UTF-8">
         <title>Just Another Website</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="images/target.webp">
     </head>
 </html>
 
 <body>
-    <div class="header">
-        Header Logo
-        <ul>
-            <li><a href="#">header-link-one</a></li>
-            <li><a href="#">header-link-two</a></li>
-            <li><a href="#">header-link-two</a></li>
-        </ul>
-    </div>
-    <div class="content">
+    <div class="container">
+
+        <div class="navbar">
+            <div class="navbar-logo">
+                <img src="images/target.webp">
+            </div>
+            <div class="navbar-link">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
 
         <div class="box-one">
-            <div class="box-one-text">
-                <span class="box-one-bold">Long text that wraps</span>
-                <span class="box-one-small">Similarly long text but in a smaller font that wraps many times over. Text color is also different with lower contrast</span>
-                <button type="button" class="button">
+            <div class="box-one text-one">
+                <h1>You know what the internet was missing?<h1>
+                <p>That's right, another generic website filled with stock images!<p>
+                <button type="button">
                     Do the thing!
                 </button>
             </div>
-            <div class="image-container-one">
-                <img src="/home/qspotspeople/Documents/personal-website/free-photo-of-faro-al-mediodia.jpeg" alt="Some image">
+            <div class="box-one image-one">
+                <img src="images/faro.jpeg" alt="Some image">
             </div>
         </div>
 
         <div class="box-two">
-            <div class="box-two-inner">
-                <span class="box-two-bold">A collection of images</span>
-                <div class="text-image-boxes">
-                    <div class="text-image-one">
-                        <div class="image-container-two">
-                            <img src="/home/qspotspeople/Documents/personal-website/balloon.webp" alt="Some image">
-                        </div>
-                        <span class="box-two-small">balloons are cool!</span>
+                <h2>A collection of images</h2>
+                <div class="box-two-info">
+                    <div>
+                        <img src="images/balloon.webp" alt="balloon">
+                        <p>balloons are cool!</p>
                     </div>
-                    <div class="text-image-two">
-                        <div class="image-container-three">
-                            <img src="/home/qspotspeople/Documents/personal-website/cat.webp" alt="Some image">
-                        </div>
-                        <span class="box-two-small">who doesn't like cats?</span>
+                    <div>
+                        <img src="images/cat.webp" alt="cat">
+                        <p>who doesn't like cats?</p>
                     </div>
-                    <div class="text-image-three">
-                        <div class="image-container-four">
-                            <img src="/home/qspotspeople/Documents/personal-website/llama.jpeg" alt="Some image">
-                        </div>
-                        <span class="box-two-small">this guy will chomp given half a chance</span>
+                    <div>
+                        <img src="images/llama.jpeg" alt="llama">
+                        <p>this guy will chomp given half a chance</p>
                     </div>
-                    <div class="text-image-four">
-                        <div class="image-container-five">
-                            <img src="/home/qspotspeople/Documents/personal-website/sunset.jpeg" alt="Some image">
-                        </div>
-                        <span class="box-two-small">the sky is the limit</span>
+                    <div>
+                        <img src="images/sunset.jpeg" alt="sunset">
+                        <p>the sky is the limit<p>
                     </div>
                 </div>
-            </div>
         </div>
 
         <div class="box-three">
             <div class="box-three-inner">
                 <span class="box-three-big">
-                    Big quote. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </span>
                 <div class="box-three-quote-origin">
-                    - Source of quote
+                    - Caesar, maybe
                 </div>
             </div>
         </div>
-    </div>
-    <div class="box-four">
-        <div class="footer">
-            <div class="box-four-text">
-                Sign up for this stuff. Or don't, doesn't matter really.
+
+        <div class="box-four">
+            <div class="footer">
+                <div class="box-four-text">
+                    Sign up for more of this, though I wouldn't.
+                </div>
+                <button type="button" class="button">
+                    Sign up
+                </button>
             </div>
-            <button type="button" class="button">
-                Sign up
-            </button>
         </div>
     </div>
 </body>
